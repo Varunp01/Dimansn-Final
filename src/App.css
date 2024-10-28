@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+  }
+.inter {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.Navbar{
+    z-index: 2;
+    position: relative;
+}
+.IntroImg{
+    background-image: url("https://i.ibb.co/JQVNLm2/Mask-group.png");
+}
+.bgInterior{
+    background-image: url("https://i.ibb.co/X2D0501/Mask-group.png");
+}
+.IntroImg{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+}
