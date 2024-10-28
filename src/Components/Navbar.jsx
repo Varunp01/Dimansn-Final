@@ -25,7 +25,7 @@ function Navbar() {
           <div className="hover:bg-slate-200 px-1 rounded-md cursor-pointer "><a href="#Navbar">Home</a></div>
           <div className="hover:bg-slate-200 px-1 rounded-md cursor-pointer"><a href="#AboutUs">About Us</a></div>
           <div className="hover:bg-slate-200 px-1 rounded-md cursor-pointer"><a href="#Services">Services</a></div>
-          <div className="hover:bg-slate-200 px-1 rounded-md cursor-pointer"><a href="#testimonial">TESTIMONIALS</a></div>
+          <div className="hover:bg-slate-200 px-1 rounded-md cursor-pointer"><a href="#testimonial">Testimonial</a></div>
         </div>
       </div>
 
@@ -37,7 +37,7 @@ function Navbar() {
           <div className="hover:bg-slate-200 mx-10 px-1 rounded-md cursor-pointer"><a href="#Navbar">Home</a></div>
           <div className="hover:bg-slate-200 mx-10 px-1 rounded-md cursor-pointer"><a href="#AboutUs">About Us</a></div>
           <div className="hover:bg-slate-200 mx-10 px-1 rounded-md cursor-pointer"><a href="#Services">Services</a></div>
-          <div className="hover:bg-slate-200 mx-10 px-1 rounded-md cursor-pointer"><a href="#testimonial">TESTIMONIALS</a></div>
+          <div className="hover:bg-slate-200 mx-10 px-1 rounded-md cursor-pointer"><a href="#testimonial">Testimonials</a></div>
         </div>
         <div className="navContact md:w-1/5 flex items-center justify-end text-xl">
           <div className="bg-orange-400 hover:bg-orange-600 px-2 py-2 rounded-xl cursor-pointer"><a href="#footer">CONTACT US</a></div>
