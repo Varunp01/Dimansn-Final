@@ -54,11 +54,11 @@ function Testimonial() {
             <br />
 
 
-            <div class="carousel-container">
-                <div class="carousel_items">
-                    <div class="carousel_item item1 text-center">
+            <div className="carousel-container">
+                <div className="carousel_items">
+                    <div className="carousel_item item1 text-center">
                         Working with Dimansn was an absolute pleasure. Their team of experts guided us through the entire construction process, from initial planning to final handover. The attention to detail and commitment to quality was truly impressive. I highly recommend their services to anyone looking for a reliable and professional construction partner.
-                        <p class="carousel_text justify-center">
+                        <p className="carousel_text justify-center">
                             <Avatar facebookId="100008343750912" size="50" round={true} />
                             <div className="px-5">
                                 <p className='text-lg font-semibold'>Joshua Keith</p>
@@ -66,9 +66,9 @@ function Testimonial() {
                             </div>
                         </p>
                     </div>
-                    <div class="carousel_item item1 text-center">
+                    <div className="carousel_item item1 text-center">
                         Working with Dimansn was an absolute pleasure. Their team of experts guided us through the entire construction process, from initial planning to final handover. The attention to detail and commitment to quality was truly impressive. I highly recommend their services to anyone looking for a reliable and professional construction partner.
-                        <p class="carousel_text justify-center">
+                        <p className="carousel_text justify-center">
                             <Avatar facebookId="100008343750912" size="50" round={true} />
                             <div className="px-5">
                                 <p className='text-lg font-semibold'>Joshua Keith</p>
@@ -76,9 +76,9 @@ function Testimonial() {
                             </div>
                         </p>
                     </div>
-                    <div class="carousel_item item1 text-center">
+                    <div className="carousel_item item1 text-center">
                         Working with Dimansn was an absolute pleasure. Their team of experts guided us through the entire construction process, from initial planning to final handover. The attention to detail and commitment to quality was truly impressive. I highly recommend their services to anyone looking for a reliable and professional construction partner.
-                        <p class="carousel_text justify-center">
+                        <p className="carousel_text justify-center">
                             <Avatar facebookId="100008343750912" size="50" round={true} />
                             <div className="px-5">
                                 <p className='text-lg font-semibold'>Joshua Keith</p>
@@ -86,9 +86,9 @@ function Testimonial() {
                             </div>
                         </p>
                     </div>
-                    <div class="carousel_item item1 text-center">
+                    <div className="carousel_item item1 text-center">
                         Working with Dimansn was an absolute pleasure. Their team of experts guided us through the entire construction process, from initial planning to final handover. The attention to detail and commitment to quality was truly impressive. I highly recommend their services to anyone looking for a reliable and professional construction partner.
-                        <p class="carousel_text justify-center">
+                        <p className="carousel_text justify-center">
                             <Avatar facebookId="100008343750912" size="50" round={true} />
                             <div className="px-5">
                                 <p className='text-lg font-semibold'>Joshua Keith</p>
@@ -96,9 +96,9 @@ function Testimonial() {
                             </div>
                         </p>
                     </div>
-                    <div class="carousel_item item1 text-center">
+                    <div className="carousel_item item1 text-center">
                         Working with Dimansn was an absolute pleasure. Their team of experts guided us through the entire construction process, from initial planning to final handover. The attention to detail and commitment to quality was truly impressive. I highly recommend their services to anyone looking for a reliable and professional construction partner.
-                        <p class="carousel_text justify-center">
+                        <p className="carousel_text justify-center">
                             <Avatar facebookId="100008343750912" size="50" round={true} />
                             <div className="px-5">
                                 <p className='text-lg font-semibold'>Joshua Keith</p>
