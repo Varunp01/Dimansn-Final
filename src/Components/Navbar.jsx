@@ -10,12 +10,12 @@ function Navbar() {
   return (
     <>
 
-      <div className=" Navbar md:hidden  px-3 py-2 text-white" id="Navbar">
+      <div className=" Navbar md:hidden  px-3 py-2 text-white bg-white bg-opacity-10" id="Navbar">
         <div className="flex">
-          <div className="navContact  flex items-center justify-center">
+          <div className="navContact w-1/2 flex items-center justify-center">
           <img src="https://i.ibb.co/0GHDWM9/Dimansn-Architects-final4-Photoroom-1.png" alt="Dimansn-Architects-final4-Photoroom-1" border="0"></img>
           </div>
-          <div className="navContact flex items-center justify-center text-xl ">
+          <div className="navContact flex w-1/2 items-center justify-center text-xl ">
             <div className="bg-[#DAAF50] hover:bg-orange-600 px-2 py-2 rounded-xl cursor-pointer text-black font-semibold">
               <a href="#footer">CONTACT US</a>
             </div>
@@ -29,7 +29,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="Navbar  hidden md:flex text-white px-3 py-2 " id="Navbar">
+      <div className="Navbar  hidden md:flex text-white px-3 py-2  bg-white bg-opacity-10 " id="Navbar">
         <div className="navContact  md:w-1/5 flex items-center justify-around text-3xl righteous-regular">
         <img src="https://i.ibb.co/0GHDWM9/Dimansn-Architects-final4-Photoroom-1.png" alt="Dimansn-Architects-final4-Photoroom-1" border="0" ></img>
         </div>
