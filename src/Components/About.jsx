@@ -4,7 +4,7 @@ function About() {
 
   return (
     <>
-      <div className="AboutUs mt-[900px] md:flex w-full" id="AboutUs">
+      <div className="AboutUs mt-[600px] sm:mt-[800px] md:flex w-full" id="AboutUs">
         <div className="AboutImg h-[600px]  md:w-1/2 flex sm:m-6 m-3 justify-center items-center">
           {/* <img src="https://i.ibb.co/JvphQSc/Mask-group.png" alt="Mask-group" border="0" className="sm:h-[498px] sm:w-[520px] h-[350px] w-[365px] absolute top-[1015px]"></img>
           <img src="https://i.ibb.co/Byk8s16/Mask-group-1.png" alt="Mask-group-1" border="0" className="sm:h-[498px] sm:w-[563px] h-[398px] w-[395px] absolute top-[1087px] left-20"></img> */}
