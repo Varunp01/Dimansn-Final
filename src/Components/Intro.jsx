@@ -6,7 +6,7 @@ function Intro() {
   return (
     <>
       <div className="IntroImg h-[971px] w-full  flex items-center ">
-        <div className="Contents sm:ml-32 ml-6">
+        <div className="Contents sm:ml-32 ml-6 mt-20 sm:mt-0">
           <div className="heading1 text-[#DAAF50] inter text-xl font-medium">
             Welcome to Dimansn Architects
           </div>

@@ -34,7 +34,7 @@ function Services() {
             <br />
             <div className="heading inter font-normal text-[15px] text-slate-600">The success of all undertakings heavily relies on the presence of solid ground; this includes the structure of any building.</div>
             <br />
-            <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div>
+            {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
           </div>
         </div>
         <div className="card bgInterior bg-white h-[373px] w-[300px] mr-5 mb-9 p-7">
@@ -45,7 +45,7 @@ function Services() {
             <br />
             <div className="heading inter font-normal text-[15px] text-white">Whether you desire the treatment of modern minimalism or classic sophistication, we design materials, colors, and design layouts to best suit your needs.</div>
             <br />
-            <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div>
+            {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
           </div>
         </div>
         <div className="card bg-white h-[373px] w-[300px] mr-5 mb-9 p-7">
@@ -55,7 +55,7 @@ function Services() {
             <div className="heading inter font-medium text-[21px]">Project Consultancy</div>
             <br />
             <div className="heading inter font-normal text-[15px] text-slate-600">It is for this reason that we also offer a project consultancy service to assist in the smooth and logical progression of the project from conceptualization to completion.</div>
-            <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div>
+            {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
           </div>
         </div>
         <div className="card bg-white h-[373px] w-[300px]  mb-9 p-9">
@@ -66,7 +66,7 @@ function Services() {
             <br />
             <div className="heading inter font-normal text-[15px] text-slate-600">This is made possible by exquisite 3D renderings, which provide every small detail from every possible direction of your project.</div>
             <br />
-            <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div>
+            {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
           </div>
         </div>
       </div>
