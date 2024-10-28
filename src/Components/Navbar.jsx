@@ -15,7 +15,7 @@ function Navbar() {
           <div className="Services text-base inter"><a href="#testimonial">Testimonials</a></div>
         </div>
         <div className="NavContactUs">
-          <div className="ContactUs sm:text-base text-sm text-black inter bg-[#DAAF50] py-4 px-8  text-center rounded-[50px] ml-5">Contact Us</div>
+          <div className="ContactUs sm:text-base text-sm text-black inter bg-[#DAAF50] py-4 px-8  text-center rounded-[50px] ml-5"><a href="#footer">Contact Us</a></div>
         </div>
       </div>
     </>
