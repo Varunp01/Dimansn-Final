@@ -16,31 +16,31 @@ function DesignAndDecor() {
             Designed for Life
           </div>
           <div className="inter font-normal text-white text-[16px] flex justify-center">
-            Nec lectus et integer convallis potenti si suscipit neque etiam. At ad convallis sociosqu tempus bibendum elementum si. Auctor nec hendrerit facilisi duis tincidunt lorem lobortis tristique eu leo donec. Mattis ac ante suspendisse mi amet.
+          Indulge in the epitome of luxury living. Our stunning apartments are meticulously designed to offer unparalleled comfort and style. From spacious interiors to exquisite finishes, every detail is crafted to perfection. Experience the ultimate in modern living, where elegance meets functionality.
           </div>
         </div>
         <div className=" bg-white h-[150px] flex flex-wrap relative top-[70px]">
           <div className="w-1/4 bg-white flex justify-center items-center border-x-2 border-black px-2">
             <div className="">
-              <div className="inter font-bold text-[#DAAF50] sm:text-[48px] text-[36px]">20 +</div>
+              <div className="inter font-bold text-[#DAAF50] sm:text-[48px] text-[30px]">20 +</div>
               <div className="inter font-medium text-black text-[18px]">Years Of Experience</div>
             </div>
           </div>
           <div className="w-1/4 bg-white flex justify-center items-center border-x-2 border-black px-2">
             <div className="">
-              <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[36px]">150 K</div>
+              <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[30px]">150 K</div>
               <div className="inter font-medium text-black text-[18px]">Project Completed</div>
             </div>
           </div>
           <div className="w-1/4 bg-white flex justify-center items-center border-x-2 border-black px-2">
             <div className="">
-              <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[36px]">97 %</div>
+              <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[30px]">97 %</div>
               <div className="inter font-medium text-black text-[18px]">Happy Clients</div>
             </div>
           </div>
           <div className="w-1/4 bg-white flex justify-center items-center border-x-2 border-black px-2">
             <div className="">
-              <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[36px]">4.7</div>
+              <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[30px]">4.7</div>
               <div className="inter font-medium text-black text-[18px]">Company Rating</div>
             </div>
           </div>

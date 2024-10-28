@@ -6,7 +6,7 @@ function Services() {
     <>
       <div className="Services flex justify-between" id="Services">
         <div className="ServicesDarkBackground bg-[#232323] h-[825px] w-2/3 z-10 relative top-20 flex">
-          <div className="content mt-20 ml-20">
+          <div className="content mt-18 sm:mt-20 ml-20">
             <div className="heading1 text-[#DAAF50] inter text-[20px] font-medium">
               Services We Do
             </div>

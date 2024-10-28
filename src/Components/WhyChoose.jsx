@@ -11,7 +11,7 @@ function WhyChoose() {
           <div className="px-4 py-20 my-auto ">
             <div className="AboutHeading1 text-[#DAAF50] inter text-xl font-medium">Why Choose Us</div>
             <br />
-            <div className="AboutHeading1 text-black inter text-5xl font-semibold">Extremely high standard of customer satisfaction</div>
+            <div className="AboutHeading1 text-black inter text-5xl font-semibold">We Are Your Trusted Partner for Seamless Construction</div>
             <br />
             <hr className="w-2/3" />
             <br />
@@ -19,7 +19,7 @@ function WhyChoose() {
               <FaArrowRightLong className="w-[25px]"></FaArrowRightLong>
               <div className="px-4">
                 <div className="inter font-semibold text-black text-[18px]">Govt. Approved Plans</div>
-                <div className="inter font-medium text-gray-500 text-[16px]">We implement the best quality measures to ensure that all the designs we incorporate comply with the law.</div>
+                <div className="inter font-medium text-gray-500 text-[16px]">Ensure your construction project is legally compliant and hassle-free. Our government-approved plans guarantee smooth execution and eligibility for potential government benefits.</div>
               </div>
             </div>
             <br />
@@ -29,7 +29,7 @@ function WhyChoose() {
               <FaArrowRightLong className="w-[25px]"></FaArrowRightLong>
               <div className="px-4">
                 <div className="inter font-semibold text-black text-[18px]">End-to-End Support</div>
-                <div className="inter font-medium text-gray-500 text-[16px]">We implement the best quality measures to ensure that all the designs we incorporate comply with the law.</div>
+                <div className="inter font-medium text-gray-500 text-[16px]">Experience seamless construction with our comprehensive end-to-end support. Our dedicated team guides you through every step, from initial planning to project completion, ensuring timely project management and efficient execution.</div>
               </div>
             </div>
             <br />
@@ -39,7 +39,7 @@ function WhyChoose() {
               <FaArrowRightLong className="w-[25px]"></FaArrowRightLong>
               <div className="px-4">
                 <div className="inter font-semibold text-black text-[18px]">Quality & Efficiency</div>
-                <div className="inter font-medium text-gray-500 text-[16px]">We implement the best quality measures to ensure that all the designs we incorporate comply with the law.</div>
+                <div className="inter font-medium text-gray-500 text-[16px]">We prioritize delivering high-quality construction projects on time. Our skilled workforce and strict quality control measures, combined with the use of premium materials and advanced techniques, ensure exceptional results.</div>
               </div>
             </div>
             <br />

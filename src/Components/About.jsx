@@ -21,7 +21,7 @@ function About() {
             <div className="AboutHeading1 text-black inter text-lg font-medium">We undertake all building planning, site supervision, 3D elevation, interior design, structural design, and any other activities involved in the project from initiation to completion. We have the knowledge and ability to perfect every detail of the design and every phase of building construction, whether the structure is residential or commercial.</div>
             <br />
             <br />
-          <div className="AboutBtn1 text-base text-black inter bg-[#DAAF50] py-4 px-8 rounded-[50px] w-[151px]">Read More</div>
+          {/* <div className="AboutBtn1 text-base text-black inter bg-[#DAAF50] py-4 px-8 rounded-[50px] w-[151px]">Read More</div> */}
           </div>
         </div>
       </div>
