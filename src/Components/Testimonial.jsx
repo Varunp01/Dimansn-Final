@@ -1,7 +1,7 @@
 import Avatar from 'react-avatar';
 import { BiSolidQuoteSingleRight } from "react-icons/bi";
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
-import "../App.css"
+// import "../App.css"
 import "./TestimonialCSS.css"
 function Testimonial() {
     const carouselItems = document.querySelectorAll(".carousel_item");
