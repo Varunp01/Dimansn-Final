@@ -1,7 +1,7 @@
 import Avatar from 'react-avatar';
 import { BiSolidQuoteSingleRight } from "react-icons/bi";
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
-import Testimonial from './Testimonial';
+import Testimonial from './Testimonial.jsx';
 // import './App.css'
 
 function OurClient() {
