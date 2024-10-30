@@ -20,25 +20,25 @@ function DesignAndDecor() {
           </div>
         </div>
         <div className=" bg-white h-[150px] flex flex-wrap relative top-[70px] rounded-full">
-          <div className="w-1/4 bg-white flex justify-center items-center border-l-2 border-black px-2">
+          <div className="w-1/4 bg-white flex justify-center items-center border-l-2 border-black px-2 shadow-lg">
             <div className="text-center">
               <div className="inter font-bold text-[#DAAF50] sm:text-[48px] text-[30px]">20 +</div>
               <div className="inter font-medium text-black text-[18px]">Years Of Experience</div>
             </div>
           </div>
-          <div className="w-1/4 bg-white flex justify-center items-center border-l-2 border-black px-2">
+          <div className="w-1/4 bg-white flex justify-center items-center border-l-2 border-black px-2 shadow-lg">
             <div className="text-center">
               <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[30px]">150 K</div>
               <div className="inter font-medium text-black text-[18px]">Project Completed</div>
             </div>
           </div>
-          <div className="w-1/4 bg-white flex justify-center items-center border-l-2 border-black px-2">
+          <div className="w-1/4 bg-white flex justify-center items-center border-l-2 border-black px-2 shadow-lg">
             <div className="text-center">
               <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[30px]">97 %</div>
               <div className="inter font-medium text-black text-[18px]">Happy Clients</div>
             </div>
           </div>
-          <div className="w-1/4 bg-white flex justify-center items-center border-x-2 border-black px-2">
+          <div className="w-1/4 bg-white flex justify-center items-center border-x-2 border-black px-2 shadow-lg">
             <div className="text-center">
               <div className="inter font-bold text-[#DAAF50]  sm:text-[48px] text-[30px]">4.7</div>
               <div className="inter font-medium text-black text-[18px]">Company Rating</div>

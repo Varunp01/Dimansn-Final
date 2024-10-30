@@ -26,7 +26,7 @@ function Services() {
         </div>
       </div>
       <div className="cards ServicesCard flex mt-10 flex-wrap relative z-20 w-full justify-around -top-[350px] px-10">
-        <div className="card bg-white h-[373px] w-[300px] mr-5 mb-9 p-9">
+        <div className="card bg-white h-[373px] w-[300px] mr-5 mb-9 p-9 shadow-2xl">
           <div className="div">
             <img src="https://i.ibb.co/PCs4xPK/workspace-1.png" alt="workspace-1" border="0"></img>
             <br />
@@ -37,7 +37,7 @@ function Services() {
             {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
           </div>
         </div>
-        <div className="card bgInterior bg-white h-[373px] w-[300px] mr-5 mb-9 p-7">
+        <div className="card bgInterior bg-white h-[373px] w-[300px] mr-5 mb-9 p-7 shadow-2xl">
           <div className="div">
             <img src="https://i.ibb.co/9NcvSQT/staircase-1.png" alt="staircase-1" border="0"></img>
             <br />
@@ -48,7 +48,7 @@ function Services() {
             {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
           </div>
         </div>
-        <div className="card bg-white h-[373px] w-[300px] mr-5 mb-9 p-7">
+        <div className="card bg-white h-[373px] w-[300px] mr-5 mb-9 p-7 shadow-2xl">
           <div className="div">
             <img src="https://i.ibb.co/N31Rbg4/living-room-1.png" alt="living-room-1" border="0"></img>
             <br />
@@ -58,7 +58,7 @@ function Services() {
             {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
           </div>
         </div>
-        <div className="card bg-white h-[373px] w-[300px]  mb-9 p-9">
+        <div className="card bg-white h-[373px] w-[300px]  mb-9 p-9 shadow-2xl">
           <div className="div">
             <img src="https://i.ibb.co/2SYPPWv/civil-engineering-1.png" alt="civil-engineering-1" border="0"></img>
             <br />
