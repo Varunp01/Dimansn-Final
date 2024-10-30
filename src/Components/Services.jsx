@@ -1,77 +1,94 @@
 // import './App.css'
 
 function Services() {
-
   return (
-    <>
-      <div className="Services flex justify-between" id="Services">
-        <div className="ServicesDarkBackground bg-[#232323] h-[825px] w-2/3 z-10 relative top-20 flex">
-          <div className="content mt-18 sm:mt-20 ml-20">
-            <div className="heading1 text-[#DAAF50] inter text-[20px] font-medium">
-              Services We Do
-            </div>
-            <br />
-            <div className="heading2 text-white inter font-semibold text-[42px]">
-              Our Featured Services
-            </div>
-            <div className="heading2 text-white inter font-semibold text-[42px]">
-              Architect Design
-            </div>
-            <br />
+    <section id="Services" className="py-20 bg-gray-50">
+      {/* Services Header Section */}
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0 px-6">
+        <div className="md:w-2/3 space-y-4 md:space-y-6 text-center md:text-left">
+          <h3 className="text-[#DAAF50] text-xl md:text-2xl font-semibold tracking-wide">
+            Services We Offer
+          </h3>
+          <h2 className="text-gray-800 text-3xl md:text-5xl font-bold">
+            Innovative Solutions for Modern Architecture
+          </h2>
+          <p className="text-gray-600 text-lg md:text-xl">
+            From architectural design to project consultancy, we provide a range of services that cater to every phase of construction and design, focusing on quality and innovation.
+          </p>
+        </div>
+        <div className="md:w-1/2 flex justify-center">
+          <img
+            src="https://i.ibb.co/9sT3VYv/Rectangle-8.png"
+            alt="Services Background"
+            className="rounded-lg shadow-xl w-full h-full object-cover"
+          />
+        </div>
+      </div>
 
-          </div>
+      {/* Services Cards */}
+      <div className="container mx-auto grid gap-10 mt-16 px-6 sm:grid-cols-2 lg:grid-cols-4">
+        {/* Card 1 */}
+        <div className="group bg-white rounded-lg shadow-md p-8 transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+          <img
+            src="https://i.ibb.co/PCs4xPK/workspace-1.png"
+            alt="Structural Engineering"
+            className="w-20 h-20 mx-auto mb-4"
+          />
+          <h4 className="text-xl font-semibold text-gray-800 group-hover:text-[#DAAF50] transition duration-300">
+            Structural Engineering
+          </h4>
+          <p className="text-gray-600 mt-3">
+            Providing solid foundations for all projects, ensuring the structural integrity and longevity of buildings.
+          </p>
         </div>
-        <div className="ServicesImg">
-          <img src="https://i.ibb.co/9sT3VYv/Rectangle-8.png" alt="Rectangle-8" border="0" className=" h-[926px] w-[1055px] z-0 absolute right-0"></img>
+
+        {/* Card 2 */}
+        <div className="group bg-[#232323] text-white rounded-lg shadow-md p-8 transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+          <img
+            src="https://i.ibb.co/9NcvSQT/staircase-1.png"
+            alt="Interior Design"
+            className="w-20 h-20 mx-auto mb-4"
+          />
+          <h4 className="text-xl font-semibold group-hover:text-[#f3bc44] transition duration-300">
+            Interior Design
+          </h4>
+          <p className="mt-3">
+            Crafting elegant interiors that blend functionality with aesthetic appeal, tailored to your style preferences.
+          </p>
+        </div>
+
+        {/* Card 3 */}
+        <div className="group bg-white rounded-lg shadow-md p-8 transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+          <img
+            src="https://i.ibb.co/N31Rbg4/living-room-1.png"
+            alt="Project Consultancy"
+            className="w-20 h-20 mx-auto mb-4"
+          />
+          <h4 className="text-xl font-semibold text-gray-800 group-hover:text-[#DAAF50] transition duration-300">
+            Project Consultancy
+          </h4>
+          <p className="text-gray-600 mt-3">
+            Offering guidance from conceptualization to completion, ensuring smooth and logical project progression.
+          </p>
+        </div>
+
+        {/* Card 4 */}
+        <div className="group bg-white rounded-lg shadow-md p-8 transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+          <img
+            src="https://i.ibb.co/2SYPPWv/civil-engineering-1.png"
+            alt="3D Elevation Design"
+            className="w-20 h-20 mx-auto mb-4"
+          />
+          <h4 className="text-xl font-semibold text-gray-800 group-hover:text-[#DAAF50] transition duration-300">
+            3D Elevation Design
+          </h4>
+          <p className="text-gray-600 mt-3">
+            Providing detailed 3D renderings for a complete visualization of your project from every angle.
+          </p>
         </div>
       </div>
-      <div className="cards ServicesCard flex mt-10 flex-wrap relative z-20 w-full justify-around -top-[350px] px-10">
-        <div className="card bg-white h-[373px] w-[300px] mr-5 mb-9 p-9 shadow-2xl">
-          <div className="div">
-            <img src="https://i.ibb.co/PCs4xPK/workspace-1.png" alt="workspace-1" border="0"></img>
-            <br />
-            <div className="heading inter font-medium text-[21px]">Structural Engineering</div>
-            <br />
-            <div className="heading inter font-normal text-[15px] text-slate-600">The success of all undertakings heavily relies on the presence of solid ground; this includes the structure of any building.</div>
-            <br />
-            {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
-          </div>
-        </div>
-        <div className="card bgInterior bg-white h-[373px] w-[300px] mr-5 mb-9 p-7 shadow-2xl">
-          <div className="div">
-            <img src="https://i.ibb.co/9NcvSQT/staircase-1.png" alt="staircase-1" border="0"></img>
-            <br />
-            <div className="heading inter font-medium text-[21px] text-white">Interior Designing</div>
-            <br />
-            <div className="heading inter font-normal text-[15px] text-white">Whether you desire the treatment of modern minimalism or classic sophistication, we design materials, colors, and design layouts to best suit your needs.</div>
-            <br />
-            {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
-          </div>
-        </div>
-        <div className="card bg-white h-[373px] w-[300px] mr-5 mb-9 p-7 shadow-2xl">
-          <div className="div">
-            <img src="https://i.ibb.co/N31Rbg4/living-room-1.png" alt="living-room-1" border="0"></img>
-            <br />
-            <div className="heading inter font-medium text-[21px]">Project Consultancy</div>
-            <br />
-            <div className="heading inter font-normal text-[15px] text-slate-600">It is for this reason that we also offer a project consultancy service to assist in the smooth and logical progression of the project from conceptualization to completion.</div>
-            {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
-          </div>
-        </div>
-        <div className="card bg-white h-[373px] w-[300px]  mb-9 p-9 shadow-2xl">
-          <div className="div">
-            <img src="https://i.ibb.co/2SYPPWv/civil-engineering-1.png" alt="civil-engineering-1" border="0"></img>
-            <br />
-            <div className="heading inter font-medium text-[21px]">3D Elevation Design</div>
-            <br />
-            <div className="heading inter font-normal text-[15px] text-slate-600">This is made possible by exquisite 3D renderings, which provide every small detail from every possible direction of your project.</div>
-            <br />
-            {/* <div className="headingBtn py-[14px] px-[18px] bg-[#DAAF50] w-[119px] rounded-[50px]">Read More</div> */}
-          </div>
-        </div>
-      </div>
-    </>
-  )
+    </section>
+  );
 }
 
-export default Services
+export default Services;
