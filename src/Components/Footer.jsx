@@ -6,10 +6,10 @@ function Footer() {
     <>
     <div className="flex flex-wrap bg-black px-5 w-full justify-evenly items-center pb-5 py-5" id="footer">
       <div className="text-white px-3 sm:w-1/3 w-full">
-      <img src="https://i.ibb.co/1mrY8p4/Dimansn-Architects-final4-Photoroom-1-1.png" alt="Dimansn-Architects-final4-Photoroom-1" border="0" className="mx-auto"></img>
+      <img src="https://i.ibb.co/1mrY8p4/Dimansn-Architects-final4-Photoroom-1-1.png" alt="Dimansn-Architects-final4-Photoroom-1" border="0" className="mx-auto mb-6"></img>
       <p>Dimansn Architects is more than just a design firm; we create inspiring spaces. Led by Er. Bhargav Chauhan, we offer comprehensive architectural services, from concept to completion. Let's turn your dream projects into reality.</p>
       </div>
-      <div className=" px-1 py-5 w-1/4 sm:w-1/3 sm:text-center">
+      <div className="px-1 py-5 w-1/4 sm:w-1/3 sm:text-center text-right">
         <p className=" inter text-[18px] text-white font-bold"><a href="#Navbar">Home</a></p>
         <br />
         <p className=" inter text-[14px] text-gray-300"><a href="#AboutUs">About Us</a></p>
