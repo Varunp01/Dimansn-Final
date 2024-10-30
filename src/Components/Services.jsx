@@ -25,7 +25,7 @@ function Services() {
           <img src="https://i.ibb.co/9sT3VYv/Rectangle-8.png" alt="Rectangle-8" border="0" className=" h-[926px] w-[1055px] z-0 absolute right-0"></img>
         </div>
       </div>
-      <div className="cards ServicesCard flex mt-10 flex-wrap relative z-20 w-full justify-around -top-[350px]">
+      <div className="cards ServicesCard flex mt-10 flex-wrap relative z-20 w-full justify-around -top-[350px] px-10">
         <div className="card bg-white h-[373px] w-[300px] mr-5 mb-9 p-9">
           <div className="div">
             <img src="https://i.ibb.co/PCs4xPK/workspace-1.png" alt="workspace-1" border="0"></img>

@@ -4,7 +4,7 @@ function Footer() {
 
   return (
     <>
-    <div className="flex flex-wrap bg-black px-3 w-full justify-evenly items-center pb-5" id="footer">
+    <div className="flex flex-wrap bg-black px-5 w-full justify-evenly items-center pb-5 py-5" id="footer">
       <div className="text-white px-3 sm:w-1/3 w-full">
       <img src="https://i.ibb.co/1mrY8p4/Dimansn-Architects-final4-Photoroom-1-1.png" alt="Dimansn-Architects-final4-Photoroom-1" border="0" className="mx-auto"></img>
       <p>Dimansn Architects is more than just a design firm; we create inspiring spaces. Led by Er. Bhargav Chauhan, we offer comprehensive architectural services, from concept to completion. Let's turn your dream projects into reality.</p>

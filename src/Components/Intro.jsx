@@ -14,7 +14,6 @@ function Intro() {
           <div className="heading2 text-white inter font-semibold text-[100px]">
             Where Dreams
           </div>
-          <br />
           <div className="heading2 text-white inter font-semibold text-[100px]">
             Come Alive
           </div>
