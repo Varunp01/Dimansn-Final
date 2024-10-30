@@ -9,7 +9,7 @@ function HowWeWork() {
         <div className="">
           <div className=" flex justify-center items-center my-8 mx-4 inter font-semibold text-[42px]">How We Work</div>
           <div className=" flex justify-center items-center my-8 mx-4 inter font-normal text-[16px] text-center px-5">Our process is a collaborative journey, from the initial concept to the final realization.</div>
-          <div className="HowWeWorkCards flex flex-wrap w-full overflow-scroll px-5">
+          <div className="HowWeWorkCards flex flex-wrap w-full overflow-scroll ">
             <div className="card1 shadow-2xl py-4 my-4 md:w-1/3 flex sm:px-3 px-5">
               <div className="number inter font-bold text-[#646E782B] text-[64px]">01</div>
               <div className="content px-3">
