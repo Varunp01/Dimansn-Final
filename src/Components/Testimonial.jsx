@@ -48,7 +48,7 @@ function Testimonial() {
 
             <div className="AboutHeading1 text-[#DAAF50] inter text-xl font-medium">Our Client</div>
             <br />
-            <div className="AboutHeading1 text-black inter text-5xl font-semibold">Here’s what our satisfied clients are saying</div>
+            <div className="AboutHeading1 text-black inter text-5xl font-semibold text-center">Here’s what our satisfied clients are saying</div>
             <br />
             <BiSolidQuoteSingleLeft />
             <br />
