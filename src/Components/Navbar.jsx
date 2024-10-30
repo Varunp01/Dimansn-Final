@@ -41,7 +41,7 @@ function Navbar() {
                 <a href="#testimonial" className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 ">Testimonial</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 ">Contact</a>
+                <a href="https://forms.gle/EsRy3n6h4WNoHP9U6" className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 ">Contact Us</a>
               </li>
             </ul>
           </div>

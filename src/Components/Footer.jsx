@@ -18,7 +18,7 @@ function Footer() {
         <br />
         <p className=" inter text-[14px] text-gray-300"><a href="#HowWeWork">Our Work</a></p>
         <br />
-        <p className=" inter text-[14px] text-gray-300"><a href="#Navbar">Contact Us</a></p>
+        <p className=" inter text-[14px] text-gray-300"><a href="https://forms.gle/EsRy3n6h4WNoHP9U6">Contact Us</a></p>
       </div>
       <div className="px-3 py-5 w-3/4 sm:w-1/3 text-center">
         <p className=" inter text-[18px] text-white font-bold">Contact</p>
