@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { FaGlobe } from "react-icons/fa";
 import { MdOutlineWifiCalling3 } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
@@ -6,43 +7,49 @@ import { FaFacebook } from "react-icons/fa";
 // import './App.css'
 
 function Navbar() {
+  const [isDivActive, setIsDivActive] = useState(true);
 
+  const handleClick = () => {
+    setIsDivActive(!isDivActive);
+  };
   return (
     <>
 
-      <div className=" Navbar md:hidden  px-3 py-2 text-white bg-white bg-opacity-10" id="Navbar">
-        <div className="flex">
-          <div className="navContact w-1/2 flex items-center justify-center">
-          <img src="https://i.ibb.co/0GHDWM9/Dimansn-Architects-final4-Photoroom-1.png" alt="Dimansn-Architects-final4-Photoroom-1" border="0"></img>
-          </div>
-          <div className="navContact flex w-1/2 items-center justify-center text-xl ">
-            <div className="bg-[#DAAF50] hover:bg-orange-600 px-2 py-2 rounded-xl cursor-pointer text-black font-semibold">
-              <a href="#footer">CONTACT US</a>
-            </div>
+      <nav className="Navbar bg-black border-gray-200 " id="Navbar">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="https://www.dimansn.in/" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="https://i.ibb.co/1mrY8p4/Dimansn-Architects-final4-Photoroom-1-1.png" className="h-20" alt="Flowbite Logo" />
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  " aria-controls="navbar-default" aria-expanded="false" onClick={handleClick}>
+            <span className="sr-only">Open main menu</span>
+            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+          <div className={` Navbar w-full md:block md:w-auto ${isDivActive ? "hidden" : ""} `} id="navbar-default">
+            <ul className="font-medium text-xl flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-black ">
+              <li>
+                <a href="#Navbar" className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 " aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="#AboutUs" className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 ">About</a>
+              </li>
+              <li>
+                <a href="#Services" className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 ">Services</a>
+              </li>
+              <li>
+                <a href="#testimonial" className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 ">Testimonial</a>
+              </li>
+              <li>
+                <a href="#" className="block py-2 px-3 text-white rounded md:bg-transparent md:text-white md:p-0 ">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="navContact flex items-center justify-around text-lg flex-wrap text-white">
-          <div className="hover:bg-[#d4d4d4b2] hover:text-black hover:font-bold  px-1 rounded-md cursor-pointer "><a href="#Navbar">Home</a></div>
-          <div className="hover:bg-[#d4d4d4b2] hover:text-black hover:font-bold  px-1 rounded-md cursor-pointer"><a href="#AboutUs">About Us</a></div>
-          <div className="hover:bg-[#d4d4d4b2] hover:text-black hover:font-bold  px-1 rounded-md cursor-pointer"><a href="#Services">Services</a></div>
-          <div className="hover:bg-[#d4d4d4b2] hover:text-black hover:font-bold  px-1 rounded-md cursor-pointer"><a href="#testimonial">Testimonial</a></div>
-        </div>
-      </div>
+      </nav>
 
-      <div className="Navbar  hidden md:flex text-white px-3 py-2  bg-white bg-opacity-10 " id="Navbar">
-        <div className="navContact  md:w-1/5 flex items-center justify-around text-3xl righteous-regular">
-        <img src="https://i.ibb.co/0GHDWM9/Dimansn-Architects-final4-Photoroom-1.png" alt="Dimansn-Architects-final4-Photoroom-1" border="0" ></img>
-        </div>
-        <div className="navContact md:w-3/5 flex items-center justify-center md:text-lg text-sm">
-          <div className="hover:bg-[#d4d4d4b2] hover:text-black hover:font-bold mx-10 px-1 rounded-md cursor-pointer"><a href="#Navbar">Home</a></div>
-          <div className="hover:bg-[#d4d4d4b2] hover:text-black hover:font-bold mx-10 px-1 rounded-md cursor-pointer"><a href="#AboutUs">About Us</a></div>
-          <div className="hover:bg-[#d4d4d4b2] hover:text-black hover:font-bold mx-10 px-1 rounded-md cursor-pointer"><a href="#Services">Services</a></div>
-          <div className="hover:bg-[#d4d4d4b2] hover:text-black hover:font-bold mx-10 px-1 rounded-md cursor-pointer"><a href="#testimonial">Testimonials</a></div>
-        </div>
-        <div className="navContact md:w-1/5 flex items-center justify-end text-xl">
-          <div className="bg-[#DAAF50] hover:bg-orange-600 px-2 py-2 rounded-xl cursor-pointer text-black font-semibold"><a href="#footer">CONTACT US</a></div>
-        </div>
-      </div>
+
+
 
     </>
 
