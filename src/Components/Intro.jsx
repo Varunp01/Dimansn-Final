@@ -11,7 +11,7 @@ function Intro() {
       <div className="absolute inset-0 bg-black opacity-40"></div>
 
       {/* Content */}
-      <div className="relative ml-3 z-10 sm:px-32 ">
+      <div className="relative ml-7 sm:ml-5 z-10 sm:px-32 ">
         <h1 className="text-[#DAAF50] text-3xl sm:text-xl font-medium tracking-wide">
           Welcome to Dimansn Architects
         </h1>

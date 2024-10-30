@@ -6,7 +6,7 @@ function HowWeWork() {
       <div className="HowWeWork mt-20 flex flex-col items-center" id="HowWeWork">
         <div className="text-center mb-8">
           <h2 className="inter font-semibold text-[#DAAF50] text-[42px]">How We Work</h2>
-          <p className="inter font-normal text-gray-700 text-[16px]">
+          <p className="inter font-normal text-gray-700 text-[16px] px-10">
             Our process is a collaborative journey, from the initial concept to the final realization.
           </p>
         </div>

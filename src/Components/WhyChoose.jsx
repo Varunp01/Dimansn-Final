@@ -7,7 +7,7 @@ function WhyChoose() {
     <>
       <div className="mt-10 flex justify-end">
         <img src="https://i.ibb.co/Cw60zfD/image.png" alt="image" border="0" className="sm:mx-20 absolute left-0 z-0"></img>
-        <div className=" relative z-10 md:w-1/2">
+        <div className=" relative z-10 md:w-1/2 mx-5">
           <div className="px-4 py-20 my-auto bg-[#FFFFFFE3] md:bg-transparent">
             <div className="AboutHeading1 text-[#DAAF50] inter text-xl font-medium">Why Choose Us</div>
             <br />

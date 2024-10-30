@@ -10,7 +10,7 @@ function Footer() {
           <p>Dimansn Architects is more than just a design firm; we create inspiring spaces. Led by Er. Bhargav Chauhan, we offer comprehensive architectural services, from concept to completion. Let's turn your dream projects into reality.</p>
         </div>
         <div className="flex w-full justify-around items-center">
-          <div className=" py-5 w-1/4 sm:w-1/3 sm:text-center text-right">
+          <div className=" py-5 w-1/4 sm:w-1/3 sm:text-center text-right mr-5">
             <p className=" inter text-[18px] text-white font-bold"><a href="#Navbar">Home</a></p>
             <br />
             <p className=" inter text-[14px] text-gray-300"><a href="#AboutUs">About Us</a></p>
@@ -21,6 +21,7 @@ function Footer() {
             <br />
             <p className=" inter text-[14px] text-gray-300"><a href="#Navbar">Contact Us</a></p>
           </div>
+          <div className="md:hidden w-[2px] bg-white h-[200px] rounded-[50%]">&nbsp;</div>
           <div className=" py-5 w-3/4 sm:w-1/3 text-center">
             <p className=" inter text-[18px] text-white font-bold">Contact</p>
             <br />
