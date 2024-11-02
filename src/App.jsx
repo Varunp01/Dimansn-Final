@@ -1,6 +1,7 @@
 import './App.css'
 import About from './Components/About'
 import Cards from './Components/Cards'
+import Contact from './Components/Contact'
 import DesignAndDecor from './Components/DesignAndDecor'
 import Footer from './Components/Footer'
 import HowWeWork from './Components/HowWeWork'
@@ -23,6 +24,7 @@ function App() {
     <HowWeWork></HowWeWork>
     <WhyChoose></WhyChoose>
     <OurClient></OurClient>
+    <Contact></Contact>
     <Footer></Footer>
     </>
   )

@@ -1,7 +1,15 @@
 html {
     scroll-behavior: smooth;
   }
-.inter {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  .inter {
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
