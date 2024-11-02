@@ -32,6 +32,10 @@ function Contact() {
         .then((data) => {
           console.log(data);
           setDataSend(true);
+          setName("");
+          setEmail("");
+          setPhno("");
+          setMsg("");
         });
 
     } catch (error) {
@@ -41,12 +45,12 @@ function Contact() {
   }
   return (
     <>
-      <div className="w-full px-10 py-10" id="ContactPage">
+      <div className="w-full sm:px-10 py-10" id="ContactPage">
         <div className="w-full shadow-inner px-3 bg-slate-100 shadow-black text-center py-5">
           {(!dataSend)
             ? <>
               <div className="text-2xl font-bold font-mono">Let's Get Connected</div>
-              <div className="text-lg font-semibold">( If You Have Any Query, Please Contact Us )</div>
+              <div className="text-base font-semibold">(If You Have Any Query, Please Contact Us)</div>
               <form onSubmit={onSubmitButton}>
                 <div className="w-3/4 md:w-1/2 text-center mx-auto">
                   <label className="flex flex-wrap items-center my-5 md:justify-center">
@@ -73,7 +77,7 @@ function Contact() {
               <div id="alert-1" class="flex items-center p-4 mb-4 text-blue-800 rounded-lg bg-blue-50" role="alert">
                 <span class="sr-only">Info</span>
                 <div class="ms-3 text-sm font-medium">
-                Your message has been received. We appreciate your feedback and will be in touch shortly.
+                  Your message has been received. We appreciate your feedback and will be in touch shortly.
                 </div>
                 <button type="button" class="ms-auto -mx-1.5 -my-1.5 bg-blue-50 text-blue-500 rounded-lg focus:ring-2 focus:ring-blue-400 p-1.5 hover:bg-blue-200 inline-flex items-center justify-center h-8 w-8 " data-dismiss-target="#alert-1" aria-label="Close" onClick={() => setDataSend(false)}>
                   <span class="sr-only">Close</span>
