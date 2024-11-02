@@ -46,7 +46,7 @@ function Contact() {
   return (
     <>
       <div className="w-full sm:px-10 py-10" id="ContactPage">
-        <div className="w-full shadow-inner px-3 bg-slate-100 shadow-black text-center py-5">
+        <div className="w-full shadow-inner px-3 rounded-t-3xl rounded-b-lg rounded bg-slate-100 shadow-black text-center py-5">
           {(!dataSend)
             ? <>
               <div className="text-2xl font-bold font-mono">Let's Get Connected</div>
@@ -55,19 +55,19 @@ function Contact() {
                 <div className="w-3/4 md:w-1/2 text-center mx-auto">
                   <label className="flex flex-wrap items-center my-5 md:justify-center">
                     <p className="text-xl font-semibold">Name:<sup className="text-red-600 font-extrabold">*</sup> &nbsp;</p>
-                    <input type="text" placeholder="ENTER NAME" className="md:w-1/2 px-2 py-1 shadow border-2 rounded-lg border-gray-600" onChange={(e) => setName(e.target.value)} value={name} required></input>
+                    <input type="text" placeholder="ENTER NAME" className="focus:bg-gray-200 md:w-1/2 px-2 py-1 shadow border-2 rounded-lg border-gray-600" onChange={(e) => setName(e.target.value)} value={name} required></input>
                   </label>
                   <label className="flex flex-wrap items-center my-5  md:justify-center">
                     <p className="text-xl font-semibold">E-mail:<sup className="text-red-600 font-extrabold">*</sup> &nbsp;</p>
-                    <input type="email" placeholder="username@company.com" className="md:w-1/2 px-2 py-1 shadow border-2 rounded-lg border-gray-600" onChange={(e) => setEmail(e.target.value)} value={email} required></input>
+                    <input type="email" placeholder="username@company.com" className="focus:bg-gray-200 md:w-1/2 px-2 py-1 shadow border-2 rounded-lg border-gray-600" onChange={(e) => setEmail(e.target.value)} value={email} required></input>
                   </label>
                   <label className="flex flex-wrap items-center my-5  md:justify-center">
                     <p className="text-xl font-semibold">Phone No:<sup className="text-red-600 font-extrabold">*</sup> &nbsp;</p>
-                    <input type="number" placeholder="+91 XXXXXXXXXX" className="md:w-1/2 px-2 py-1 shadow border-2 rounded-lg border-gray-600" onChange={(e) => setPhno(e.target.value)} value={phno} required></input>
+                    <input type="number" placeholder="+91 XXXXXXXXXX" className="focus:bg-gray-200 md:w-1/2 px-2 py-1 shadow border-2 rounded-lg border-gray-600" onChange={(e) => setPhno(e.target.value)} value={phno} required></input>
                   </label>
                   <label className="flex flex-wrap my-5  md:justify-center">
                     <p className="text-xl font-semibold">Message:<sup className="text-red-600 font-extrabold">*</sup> &nbsp;</p>
-                    <textarea className="px-2 py-1 shadow border-2 rounded-lg border-gray-600" name="message" rows="4" cols="50" placeholder="What's Your Message" onChange={(e) => setMsg(e.target.value)} value={msg} required></textarea>
+                    <textarea className="focus:bg-gray-200 px-2 py-1 shadow border-2 rounded-lg border-gray-600" name="message" rows="4" cols="50" placeholder="What's Your Message" onChange={(e) => setMsg(e.target.value)} value={msg} required></textarea>
                   </label>
                   <input type="submit" value={"SUBMIT"} className="cursor-pointer hover:text-[#DAAF50] bg-black px-10 rounded-lg mx-auto text-2xl text-white"></input>
                 </div>
