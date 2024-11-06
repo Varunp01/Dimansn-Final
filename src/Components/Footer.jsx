@@ -28,13 +28,15 @@ function Footer() {
             <p className=" inter text-[18px] text-white font-bold">Er. BHARGAV CHAUHAN</p>
             <p className=" inter text-[14px] text-gray-300">Architect &amp; Project Consultant</p>
             <br />
-            <p className=" inter text-[14px] text-gray-300">dimansnarchitects@gmail.com</p>
+            <p className=" inter text-[14px] text-gray-300 overflow-scroll sm:overflow-auto">dimansnarchitects@gmail.com</p>
             <br />
             <p className=" inter text-[14px] text-gray-300">Our Work</p>
             <p className=" inter text-[14px] text-gray-300">+91 99683 88888</p>
           </div>
         </div>
       </div>
+      <div className="bg-[#1a1a1a] text-white text-center py-3 px-3 ">© Copyright <b>DIMANSN</b>. All Rights Reserved. Maintained by <b>AREVEI</b>.</div>
+
     </>
   )
 }
